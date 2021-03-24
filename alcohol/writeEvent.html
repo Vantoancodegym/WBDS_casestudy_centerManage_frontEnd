@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <link rel="stylesheet" href="assets/css/event.css">
+    <script rel="script" src="assets/js/event.js"></script>
+</head>
+<body>
+
+<div id="form">
+
+    <div class="fish" id="fish"></div>
+    <div class="fish" id="fish2"></div>
+
+    <form id="waterform" method="post" enctype="multipart/form-data">
+
+        <div class="formgroup" id="name-form">
+            <label for="name">Title</label>
+            <input type="text" id="name" name="name" />
+        </div>
+
+        <div class="formgroup" id="email-form">
+            <label for="image">Image</label>
+            <input type="file" id="image" name="image" />
+        </div>
+
+        <div class="formgroup" id="message-form">
+            <label for="message">Content</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+
+        <input type="submit" value="Write new event!" />
+    </form>
+</div>
+</body>
+</html>

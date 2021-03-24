@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style>
+        table,td{
+            border: 1px black solid;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <input id="username">
+    <input id="password">
+    <input type="submit" value="login" onclick="login()">
+</form>
+
+<script>
+   function login(){
+       let username=$('#username').val();
+       let password=$('#password').val();
+       let newUser={
+           username:username,
+           password:password
+       }
+       $.ajax({
+           headers: {
+               'Accept': 'application/json',
+               'Content-Type': 'application/json'
+           },
+           url: "http://localhost:8080/login",
+           type: 'POST',
+           data: JSON.stringify(newUser),
+           error : function(err) {
+               console.log('Error!', err)
+           },
+           success: function(data) {
+               console.log('Success!')
+               localStorage.setItem('token', data.token);
+           }
+       });
+   }
+</script>
+</body>
+</html>
