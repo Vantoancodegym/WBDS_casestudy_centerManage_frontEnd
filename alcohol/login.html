@@ -28,7 +28,7 @@
                         </div>
                         <div class="form-group">
                             <input type="button" onclick="loginUser()" name="submit" class="btn btn-info btn-md" value="Login">
-                            <p id="mess"></p>
+                           <br><br> <p id="mess"></p>
                         </div>
                     </form>
                 </div>
@@ -63,6 +63,7 @@
             },
             success: function(data) {
                 localStorage.setItem('token', data.token);
+                localStorage.setItem('role', data.roles[0].name);
                 window.location.replace("index.html");
             }
         });

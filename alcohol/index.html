@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script rel="script" src="assets/js/home.js"></script>
 
   <!-- =======================================================
   * Template Name: Mentor - v2.2.1
@@ -36,7 +37,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body onload="login_logout()">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -56,7 +57,7 @@
           <li><a href="pricing.html">HỌC PHÍ</a></li>
           <li class="drop-down"><a href="">MENU</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
+              <li id="drop1"><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Deep Drop Down</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -75,8 +76,7 @@
 
         </ul>
       </nav><!-- .nav-menu -->
-
-      <a href="login.html" class="get-started-btn">Login</a>
+      <span id="login_logout"></span>
 
     </div>
   </header><!-- End Header -->
