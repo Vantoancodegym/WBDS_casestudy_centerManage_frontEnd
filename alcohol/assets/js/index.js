@@ -112,9 +112,9 @@ function loadByRole(){
                 <li><a href="createForm/createSubject.html">Thêm môn học mới</a></li>
                 <li><a href="createForm/createClass.html">Thêm lớp học mới</a></li>
                 <li><a href="writeEvent.html">Tạo sự kiện</a></li>
-                 <li><a href="#">Danh sách đăng ký tư vấn</a></li>
+                 <li><a href="customer_register.html">Danh sách đăng ký tư vấn</a></li>
                  <li><a href="#">Thống kê học viên theo giáo viên</a></li>
-                <li><a href="#">Điểm trung bình các lớp</a></li>
+                <li><a href="avgPointInClass.html">Điểm trung bình các lớp</a></li>
               </ul>
          </li>`
             break;
