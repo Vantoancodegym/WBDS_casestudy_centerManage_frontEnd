@@ -112,7 +112,7 @@ textarea{
     resize: none;
     overflow: auto;
 }
-input[type="submit"]{
+input[type="button"]{
     background-color: #F90;
     color: white;
     height: 50px;

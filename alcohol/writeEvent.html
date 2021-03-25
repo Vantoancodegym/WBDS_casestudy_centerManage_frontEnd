@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Event</title>
     <link rel="stylesheet" href="assets/css/event.css">
-    <script rel="script" src="assets/js/event.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -13,25 +13,30 @@
     <div class="fish" id="fish"></div>
     <div class="fish" id="fish2"></div>
 
-    <form id="waterform" method="post" enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data">
 
         <div class="formgroup" id="name-form">
-            <label for="name">Title</label>
+            <label for="name">Tiêu đề</label>
             <input type="text" id="name" name="name" />
         </div>
 
         <div class="formgroup" id="email-form">
-            <label for="image">Image</label>
-            <input type="file" id="image" name="image" />
+            <label for="image">Hình ảnh</label>
+            <input type="text" id="image" name="image" />
         </div>
 
         <div class="formgroup" id="message-form">
-            <label for="message">Content</label>
-            <textarea id="message" name="message"></textarea>
+            <label for="content">Nội dung</label>
+            <textarea id="content" name="content"></textarea>
         </div>
 
-        <input type="submit" value="Write new event!" />
+        <input type="button" onclick="createNewEvent()" value="Tạo sự kiện" />
+        <br>
+        <br>
+        <br>
+        <p><a href="http://localhost:63343/casestudyModule4_frontend/alcohol/index.html?_ijt=120inh32h92iklvs8461st60ej">Quay về trang chủ</a></p>
     </form>
 </div>
+<script rel="script" src="assets/js/createEvent.js"></script>
 </body>
 </html>
