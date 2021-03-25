@@ -108,7 +108,7 @@ function loadByRole(){
            <ul>
                 <li><a href="createForm/createStudent.html">Tạo tài khoản học viên</a></li>
                 <li><a href="createForm/createWardenForm.html">Tạo tài khoản giáo vụ</a></li>
-                <li><a href="#">Tạo tài khoản giảng viện</a></li>
+                <li><a href="createForm/createWardenForm.html">Tạo tài khoản giảng viện</a></li>
                 <li><a href="#">Thêm lớp học mới</a></li>
                 <li><a href="#">Thêm môn học mới</a></li>
                 <li><a href="#">Tạo sự kiện</a></li>

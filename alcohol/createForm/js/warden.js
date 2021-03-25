@@ -11,6 +11,49 @@
 //
 //     });
 //
+function insertWarden(newUser) {
+    $.ajax({
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        url: "http://localhost:8080/admin/insertWarden",
+        type: 'POST',
+        data: JSON.stringify(newUser),
+        // enctype: 'multipart/form-data',
+        // data: newWarden,
+        // processData: false,
+        // contentType: false,
+        // cache: false,
+        error: function (err) {
+            alert("lỗi")
+        },
+        success: function (data) {
+            alert("Tạo mới thành công")
+            console.log(data)
+        }
+    });
+}
+
+function insertTeacher(newUser) {
+    $.ajax({
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        url: "http://localhost:8080/admin/insertTeacher",
+        type: 'POST',
+        data: JSON.stringify(newUser),
+        error: function (err) {
+            alert("lỗi")
+        },
+        success: function (data) {
+            alert("Tạo mới thành công")
+            console.log(data)
+        }
+    });
+}
+
 // });
 function createWarden(e){
     let username=$('#username').val();
@@ -40,48 +83,11 @@ function createWarden(e){
         salary:salary
     }
     if (e.val()=="warden"){
-        $.ajax({
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            url: "http://localhost:8080/admin/insertWarden",
-            type: 'POST',
-            data: JSON.stringify(newUser),
-            // enctype: 'multipart/form-data',
-            // data: newWarden,
-            // processData: false,
-            // contentType: false,
-            // cache: false,
-            error: function (err) {
-                alert("lỗi")
-            },
-            success: function (data) {
-                alert("Tạo mới thành công")
-                console.log(data)
-            }
-        });
+        insertWarden(newUser);
 
     }
     else {
-        $.ajax({
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            url: "http://localhost:8080/admin/insertTeacher",
-            type: 'POST',
-            data: JSON.stringify(newUser),
-            error: function (err) {
-                alert("lỗi")
-            },
-            success: function (data) {
-                alert("Tạo mới thành công")
-                console.log(data)
-            }
-        });
+        insertTeacher(newUser);
     }
-
-
 
 }

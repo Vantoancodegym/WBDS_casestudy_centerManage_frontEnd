@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/createSubject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/js/subject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/createForm/createWardenForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/createWardenForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alcohol/createForm/js/warden.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/warden.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -90,7 +92,7 @@
       <workItem from="1616570115614" duration="7738000" />
       <workItem from="1616590925836" duration="11562000" />
       <workItem from="1616634195886" duration="23683000" />
-      <workItem from="1616674386185" duration="8776000" />
+      <workItem from="1616674386185" duration="10581000" />
     </task>
     <servers />
   </component>
