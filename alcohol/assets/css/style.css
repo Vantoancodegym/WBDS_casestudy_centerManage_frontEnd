@@ -1367,7 +1367,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type="button"] {
   background: #5fcf80;
   border: 0;
   padding: 10px 35px;
