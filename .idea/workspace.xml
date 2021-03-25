@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="" />
+    <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alcohol/404Error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/assets/css/403.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/403.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/createStudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/createWardenForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/js/createStudent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/js/warden.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/datepicker/daterangepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/datepicker/daterangepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/datepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/datepicker/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/datepicker/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/datepicker/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/HELP-US-OUT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/css/material-design-iconic-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/select2/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/pricing.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +74,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1q5oSY7wWPlc0KjBkm5csyNwRCK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +113,11 @@
       <recent name="D:\Codegym\Mentor-bootstrap-4\Mentor" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="home.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="home.js" working-dir="$PROJECT_DIR$/alcohol/assets/js">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,18 +130,40 @@
       <workItem from="1616462441715" duration="4506000" />
       <workItem from="1616516436097" duration="1300000" />
       <workItem from="1616570115614" duration="7738000" />
-      <workItem from="1616590925836" duration="6854000" />
+      <workItem from="1616590925836" duration="11562000" />
+      <workItem from="1616634195886" duration="23683000" />
+      <workItem from="1616674386185" duration="4648000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616643053722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616643053722" />
     <state x="454" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616570186078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1616570186077" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616647159280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616647159280" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
