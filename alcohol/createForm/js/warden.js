@@ -12,7 +12,7 @@
 //     });
 //
 // });
-function createWarden(){
+function createWarden(e){
     let username=$('#username').val();
     let password=$('#password').val();
     let address=$('#address').val();
@@ -21,7 +21,10 @@ function createWarden(){
     let phone=$('#phone').val();
     let salary=$('#salary').val();
     let avatar=$('#avatar').val();
-    let newWarden={
+    let role_id;
+    if (e.val()=="warden"){role_id=5}
+    else {role_id=4}
+    let newUser={
         appUser:{
             username:username,
             password:password,
@@ -31,13 +34,12 @@ function createWarden(){
             phone:phone,
             avatar:avatar,
             role: {
-                id: 4
+                id: role_id
             },
         },
         salary:salary
     }
-    console.log(newWarden)
-
+    if (e.val()=="warden"){
         $.ajax({
             headers: {
                 'Accept': 'application/json',
@@ -45,7 +47,7 @@ function createWarden(){
             },
             url: "http://localhost:8080/admin/insertWarden",
             type: 'POST',
-            data: JSON.stringify(newWarden),
+            data: JSON.stringify(newUser),
             // enctype: 'multipart/form-data',
             // data: newWarden,
             // processData: false,
@@ -59,5 +61,27 @@ function createWarden(){
                 console.log(data)
             }
         });
+
+    }
+    else {
+        $.ajax({
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            url: "http://localhost:8080/admin/insertTeacher",
+            type: 'POST',
+            data: JSON.stringify(newUser),
+            error: function (err) {
+                alert("lỗi")
+            },
+            success: function (data) {
+                alert("Tạo mới thành công")
+                console.log(data)
+            }
+        });
+    }
+
+
 
 }

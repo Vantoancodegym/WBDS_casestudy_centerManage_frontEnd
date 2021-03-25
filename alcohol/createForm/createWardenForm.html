@@ -31,7 +31,7 @@
     <div class="wrapper wrapper--w680">
         <div class="card card-4">
             <div class="card-body">
-                <h2 class="title">Tạo tài khoản giáo vụ</h2>
+                <h2 class="title">Tạo tài khoản giáo vụ/ Giảng viên</h2>
                 <form method="POST" enctype="multipart/form-data"  id="fileUploadForm">
                     <div class="row row-space">
                         <div class="col-2">
@@ -91,7 +91,8 @@
                     </div>
 
                     <div class="p-t-15">
-                        <button class="btn btn--radius-2 btn--blue" id="submitButton" onclick="createWarden()" type="button">Tạo mới</button>
+                        <button class="btn btn--radius-2 btn--blue" value="warden" onclick="createWarden($(this))" type="button">Tạo mới giáo vụ</button>
+                        <button class="btn btn--radius-2 btn--blue" value="teacher" onclick="createWarden($(this))" type="button">Tạo mới giảng viên</button>
                         <br>
                         <br>
                         <p><a href="http://localhost:63343/casestudyModule4_frontend/alcohol/index.html?_ijt=120inh32h92iklvs8461st60ej">Quay về trang chủ</a></p>
