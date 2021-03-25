@@ -20,51 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alcohol/404Error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/assets/css/403.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/403.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/createForm/createStudent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/createForm/createWardenForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/createForm/js/createStudent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/createForm/js/warden.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/createForm/js/student.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/img/trainers/trainer-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/datepicker/daterangepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/datepicker/daterangepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/datepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/datepicker/daterangepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/datepicker/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/datepicker/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/HELP-US-OUT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/css/material-design-iconic-font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/select2/select2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/colorlib-regform-4/vendor/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/vendor/select2/select2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/createForm/createStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/createStudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/createForm/createWardenForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/createWardenForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +92,7 @@
       <workItem from="1616570115614" duration="7738000" />
       <workItem from="1616590925836" duration="11562000" />
       <workItem from="1616634195886" duration="23683000" />
-      <workItem from="1616674386185" duration="4648000" />
+      <workItem from="1616674386185" duration="7778000" />
     </task>
     <servers />
   </component>

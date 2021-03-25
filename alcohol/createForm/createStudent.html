@@ -26,24 +26,24 @@
     <link href="css/main.css" rel="stylesheet" media="all">
 </head>
 
-<body>
+<body onload="firtLoad()">
 <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
     <div class="wrapper wrapper--w680">
         <div class="card card-4">
             <div class="card-body">
                 <h2 class="title">Tạo tài khoản học viên</h2>
-                <form method="POST">
+                <form method="POST" enctype="multipart/form-data"  id="fileUploadForm">
                     <div class="row row-space">
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">username</label>
-                                <input class="input--style-4" type="text" id="username">
+                                <input class="input--style-4" type="text" id="username" name="username">
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">password</label>
-                                <input class="input--style-4" type="password" id="password">
+                                <input class="input--style-4" type="password" id="password" name="password">
                             </div>
                         </div>
                     </div>
@@ -51,13 +51,13 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Địa chỉ</label>
-                                <input class="input--style-4" type="text" id="adress">
+                                <input class="input--style-4" type="text" id="address" name="address">
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Tên hiển thị</label>
-                                <input class="input--style-4" type="password" id="display_name">
+                                <input class="input--style-4" type="text" id="display_name" name="display_name">
                             </div>
                         </div>
                     </div>
@@ -65,30 +65,46 @@
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Email</label>
-                                <input class="input--style-4" type="email" name="email">
+                                <input class="input--style-4" type="email" id="email" name="email">
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="input-group">
                                 <label class="label">Số điện thoại</label>
-                                <input class="input--style-4" type="text" name="phone">
+                                <input class="input--style-4" type="text" id="phone" name="phone">
                             </div>
                         </div>
                     </div>
-                    <div class="input-group">
-                        <label class="label">Lớp học</label>
-                        <div class="rs-select2 js-select-simple select--no-search">
-                            <select id="classes">
-                                <option disabled="disabled" selected="selected">Choose option</option>
-                                <option>Subject 1</option>
-                                <option>Subject 2</option>
-                                <option>Subject 3</option>
-                            </select>
-                            <div class="select-dropdown"></div>
+                    <div class="row row-space">
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label class="label">Avatar</label>
+                                <input class="input--style-4" type="text" id="avatar" name="avatarMul">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label class="label">HỌc phí</label>
+                                <input class="input--style-4" type="text" id="tuition" name="tuition">
+                            </div>
                         </div>
                     </div>
+                    <div class="row row-space">
+                        <div class="input-group">
+                            <label class="label">Lớp</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="subject" id="class_id">
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="p-t-15">
-                        <button class="btn btn--radius-2 btn--blue" type="submit">Tạo mới</button>
+                        <button class="btn btn--radius-2 btn--blue" id="submitButton" onclick="createStudent()" type="button">Tạo mới</button>
+                        <br>
+                        <br>
+                        <p><a href="http://localhost:63343/casestudyModule4_frontend/alcohol/index.html?_ijt=120inh32h92iklvs8461st60ej">Quay về trang chủ</a></p>
                     </div>
                 </form>
             </div>
@@ -105,6 +121,7 @@
 
 <!-- Main JS-->
 <script src="js/global.js"></script>
+<script src="js/student.js"></script>
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
