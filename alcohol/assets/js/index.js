@@ -78,7 +78,7 @@ function loadTop3Teacher(){
             for (let i = 0; i < data.length; i++) {
                content+=`  <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="assets/img/trainers/`+`${data[i].image}" class="img-fluid" alt="">
+              <img src=${data[i].image} class="img-fluid" alt="">
               <div class="member-content">
                 <h4>${data[i].name}</h4>
                 <span>${data[i].phone}</span>
@@ -148,5 +148,13 @@ function loadByRole(){
             break;
         default:
             break;
+    }
+}
+function showProfile(){
+    if (localStorage.getItem('role')=="null"||localStorage.getItem('role')==null){
+        window.location.replace("login.html");
+
+    }else {
+        window.location.replace("profile.html");
     }
 }

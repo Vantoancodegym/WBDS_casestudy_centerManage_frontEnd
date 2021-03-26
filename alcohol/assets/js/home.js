@@ -25,6 +25,22 @@ function logout(){
            alert("loi")
         }
     });
+    // $.ajax({
+    //     type: "POST",
+    //     url: "http://localhost:8080/logout",
+    //     headers: {
+    //         // Authorization: 'Bearer ' + localStorage.getItem('token'),
+    //         // 'Accept': 'application/json',
+    //         // 'Content-Type': 'application/json'
+    //     },
+    //     // dataType: 'json',
+    //     success: function (data) {
+    //         alert("thanh cong")
+    //     },
+    //     error: function ( err) {
+    //         alert("loi")
+    //     }
+    // });
 
     // $.ajax({
     //     headers: {
