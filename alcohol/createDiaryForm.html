@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <link rel="stylesheet" href="assets/css/event.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="form">
+
+    <div class="fish" id="fish"></div>
+    <div class="fish" id="fish2"></div>
+
+    <form method="post">
+
+        <div class="formgroup" id="name-form">
+            <label for="date">Ngày tháng</label>
+            <input type="date" id="date" name="date" />
+        </div>
+
+        <div class="formgroup" id="message-form">
+            <label for="content">Nội dung</label>
+            <textarea id="content" name="content"></textarea>
+        </div>
+
+        <input type="button" onclick="createNewDiary()" value="Viết nhật ký" />
+        <br>
+        <br>
+        <br>
+        <p><a href="listClassByTeacher.html">Back</a></p>
+    </form>
+</div>
+<script rel="script" src="assets/js/createDiary.js"></script>
+</body>
+</html>

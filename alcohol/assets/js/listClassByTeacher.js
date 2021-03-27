@@ -30,11 +30,13 @@ function firstLoad(){
         }});
 }
 function checkDetail(e){
-    localStorage.setItem('detail_class_id',e.val())
+    localStorage.setItem('detail_class_id',e.val());
     window.location.replace("classDetail.html");
 
 
 }
 function showFormCreateDiary(e){
+    localStorage.setItem('diary_class_id',e.val());
+    window.location.replace("createDiaryForm.html");
 
 }
