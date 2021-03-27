@@ -76,5 +76,8 @@ function checkDetailDiary(e){
 
 }
 function showFormCreateDiaryForStudent(e){
+    localStorage.setItem('diary_student_id',e.val());
+    localStorage.setItem('select_diary',"student");
+    window.location.replace("createDiaryForm.html");
 
 }

@@ -3,7 +3,9 @@ function createNewEvent(){
     let name=$('#name').val();
     let image=$('#image').val();
     let content=$('#content').val();
+    let date=$('#date').val();
     let newEvent={
+        date:date,
         name:name,
         image:image,
         content:content

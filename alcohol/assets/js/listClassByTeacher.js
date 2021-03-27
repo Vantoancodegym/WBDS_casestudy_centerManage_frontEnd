@@ -37,6 +37,7 @@ function checkDetail(e){
 }
 function showFormCreateDiary(e){
     localStorage.setItem('diary_class_id',e.val());
+    localStorage.setItem('select_diary',"classes");
     window.location.replace("createDiaryForm.html");
 
 }
