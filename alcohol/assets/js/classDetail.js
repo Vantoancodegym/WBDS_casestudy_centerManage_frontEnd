@@ -70,8 +70,8 @@ function firstLoad(){
 }
 
 function checkDetailDiary(e){
-    // localStorage.setItem('detail_class_id',e.val())
-    // window.location.replace("classDetail.html");
+    localStorage.setItem('detail_student_id',e.val())
+    window.location.replace("detailDiaryOfStudent.html");
 
 
 }
