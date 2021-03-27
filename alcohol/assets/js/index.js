@@ -122,7 +122,7 @@ function loadByRole(){
             document.getElementById("drop_teacher").innerHTML=`<li class="drop-down">
              <a href="#">Teacher</a>
            <ul>
-                 <li><a href="#">Danh sách lớp học </a></li>
+                 <li><a href="listClassByTeacher.html">Danh sách lớp học </a></li>
               </ul>
          </li>`
             break;
