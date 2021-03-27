@@ -131,7 +131,7 @@ function loadByRole(){
              <a href="#">Warden</a>
            <ul>
                 <li><a href="#">Điểm trung bình và lý thuyết theo lớp</a></li>
-                 <li><a href="#">Danh sách học viên</a></li>
+                 <li><a href="allStudentList.html">Danh sách học viên</a></li>
               </ul>
          </li>`
             break;

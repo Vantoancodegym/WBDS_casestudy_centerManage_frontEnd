@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/detailDiaryOfStudent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alcohol/detailDiaryOfStudent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/classDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/classDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/allStudentList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/listAllStudent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <workItem from="1616634195886" duration="23683000" />
       <workItem from="1616674386185" duration="17549000" />
       <workItem from="1616721918394" duration="20267000" />
-      <workItem from="1616827677457" duration="13758000" />
+      <workItem from="1616827677457" duration="24765000" />
     </task>
     <servers />
   </component>
