@@ -1,5 +1,5 @@
 
-function fillDataTaleAllStudent(){
+function fillDataTaleAllStudent(url){
     let subContent=[];
     getSubContent(subContent);
     console.log(subContent)
@@ -7,7 +7,7 @@ function fillDataTaleAllStudent(){
         headers: {
             Authorization: 'Bearer ' + localStorage.getItem('token'),
         },
-        url: "http://localhost:8080/warden/findAllStudent",
+        url: url,
         type: 'GET',
         error: function (err) {
             alert("lỗi")
@@ -62,7 +62,7 @@ function getSubContent(subContent){
 }
 
 function firstLoad(){
-    fillDataTaleAllStudent();
+    fillDataTaleAllStudent("http://localhost:8080/warden/findAllStudent");
 }
 function changeStudentStatus(e){
     let student_id=e.attr('id');
@@ -77,7 +77,8 @@ function changeStudentStatus(e){
             alert("lỗi")
         },
         success: function (data) {
-          fillDataTaleAllStudent();
+          // fillDataTaleAllStudent("http://localhost:8080/warden/findAllStudent");
+            searchByName();
         }
     });
 
@@ -85,4 +86,15 @@ function changeStudentStatus(e){
 function showScoreDetail(e){
     localStorage.setItem('score_student_id',e.val());
     window.location.replace("studentScoreDetail.html");
+}
+function searchByName(){
+let name=$('#searchName').val();
+let url;
+if (name==""){
+    url ="http://localhost:8080/warden/findAllStudent";
+}else {
+    url="http://localhost:8080/warden/findStudentLikeAppUserName/"+name;
+
+}
+fillDataTaleAllStudent(url);
 }
