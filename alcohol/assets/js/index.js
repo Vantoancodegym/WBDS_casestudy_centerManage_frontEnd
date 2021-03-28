@@ -113,7 +113,7 @@ function loadByRole(){
                 <li><a href="createForm/createClass.html">Thêm lớp học mới</a></li>
                 <li><a href="writeEvent.html">Tạo sự kiện</a></li>
                  <li><a href="customer_register.html">Danh sách đăng ký tư vấn</a></li>
-                 <li><a href="#">Thống kê học viên theo giáo viên</a></li>
+                 <li><a href="userList.html">Dạnh sách User</a></li>
                 <li><a href="avgPointInClass.html">Điểm trung bình các lớp</a></li>
               </ul>
          </li>`
@@ -136,13 +136,7 @@ function loadByRole(){
             break;
         case "ROLE_STUDENT":
             document.getElementById("drop_student").innerHTML=`<li class="drop-down">
-             <a href="#">Admin</a>
-           <ul>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                 <li><a href="#">Deep Drop Down 3</a></li>
-                 <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
-              </ul>
+             <a href="#">Student</a>
          </li>`
             break;
         default:

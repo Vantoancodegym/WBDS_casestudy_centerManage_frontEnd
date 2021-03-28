@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/userList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/userList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/allStudentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/allStudentList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alcohol/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/listAllStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/listAllStudent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +65,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Codegym\Module4\caestudyModule4\casestudyModule4_frontend\alcohol\centerPage" />
-      <recent name="D:\Codegym\Module4\caestudyModule4\casestudyModule4_frontend\alcohol" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Codegym\Mentor-bootstrap-4\Mentor" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codegym\Module4\caestudyModule4\casestudyModule4_frontend\alcohol" />
+      <recent name="D:\Codegym\Module4\caestudyModule4\casestudyModule4_frontend\alcohol\centerPage" />
       <recent name="D:\Codegym\Mentor-bootstrap-4\Mentor" />
     </key>
   </component>
@@ -96,7 +96,7 @@
       <workItem from="1616674386185" duration="17549000" />
       <workItem from="1616721918394" duration="20267000" />
       <workItem from="1616827677457" duration="24890000" />
-      <workItem from="1616914119278" duration="6818000" />
+      <workItem from="1616914119278" duration="8392000" />
     </task>
     <servers />
   </component>
