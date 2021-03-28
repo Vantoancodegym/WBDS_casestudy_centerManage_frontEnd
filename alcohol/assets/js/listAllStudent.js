@@ -29,7 +29,7 @@ function fillDataTaleAllStudent(){
 <td>${data[i].appUser.address}</td>
 <td>${data[i].appUser.phone}</td>
 <td>${data[i].classes.name}</td>
-<td><button value="${data[i].id}">Score detail</button></td>
+<td><button value="${data[i].id}" onclick="showScoreDetail($(this))">Score detail</button></td>
 <td>${data[i].status.name}</td>
 <td><select id="${data[i].id}" onchange="changeStudentStatus($(this))">${subContent[0]}</select></td>
                          </tr>`
@@ -81,5 +81,8 @@ function changeStudentStatus(e){
         }
     });
 
-
+}
+function showScoreDetail(e){
+    localStorage.setItem('score_student_id',e.val());
+    window.location.replace("studentScoreDetail.html");
 }
