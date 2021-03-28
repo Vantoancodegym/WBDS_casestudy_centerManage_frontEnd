@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/top5student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/livechat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/top5student.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/top5student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/livechat.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/livechat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/trainers.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/trainers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +103,7 @@
       <workItem from="1616674386185" duration="17549000" />
       <workItem from="1616721918394" duration="20267000" />
       <workItem from="1616827677457" duration="24890000" />
-      <workItem from="1616914119278" duration="10209000" />
+      <workItem from="1616914119278" duration="18969000" />
     </task>
     <servers />
   </component>
@@ -123,6 +131,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1616570186077" />
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1616947940179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1616947940179" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1616942807773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616942807773" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616747250594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

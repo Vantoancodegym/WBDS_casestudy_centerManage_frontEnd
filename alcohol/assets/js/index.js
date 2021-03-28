@@ -100,6 +100,70 @@ function loadTop3Teacher(){
     })
 
 }
+function loadTop3Subject(){
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8080/admin/getTop3Subject",
+        headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // 'Accept': 'application/json',
+            // 'Content-Type': 'application/json'
+        },
+        error: function (err) {
+            console.log('Error!', err)
+        },
+        success: function (data) {
+            console.log(data)
+            let content="";
+            for (let i = 0; i < data.length; i++) {
+                content+=`<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src=${data[i].image} style="width: 360px; height: 360px"  alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>${data[i].name}</h4>
+                </div>
+              </div>
+            </div>`
+            }
+            document.getElementById("top3subject").innerHTML=content;
+        }
+    })
+
+}
+function loadAllEvent(){
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8080/admin/findAllEvent",
+        headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // 'Accept': 'application/json',
+            // 'Content-Type': 'application/json'
+        },
+        error: function (err) {
+            console.log('Error!', err)
+        },
+        success: function (data) {
+            console.log(data)
+            let content="";
+            for (let i = 0; i < data.length; i++) {
+                content+=` <div class="row"><div class="col-md-12 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <center><img src=${data[i].image} alt="..." style="width: 700px"></center>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">${data[i].name}</a></h5>
+                <p class="font-italic text-center">${data[i].date}</p>
+                <p class="card-text">${data[i].content}</p>
+              </div>
+            </div></div>`
+            }
+            document.getElementById("allEvent").innerHTML=content;
+        }
+    })
+
+}
 function loadByRole(){
     switch (localStorage.getItem('role')){
         case "ROLE_ADMIN":
@@ -149,5 +213,13 @@ function showProfile(){
 
     }else {
         window.location.replace("profile.html");
+    }
+}
+function showLiveChat(){
+    if (localStorage.getItem('role')=="null"||localStorage.getItem('role')==null){
+        window.location.replace("login.html");
+
+    }else {
+        window.location.replace("livechat.html");
     }
 }

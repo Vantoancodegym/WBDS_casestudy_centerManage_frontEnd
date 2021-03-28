@@ -27,6 +27,17 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script rel="script" src="assets/js/home.js"></script>
+  <script rel="script" src="assets/js/index.js"></script>
+  <script>
+    function firstLoad(){
+      login_logout()
+      loadToal()
+
+      loadTop3Teacher()
+      loadByRole()
+    }
+  </script>
 
   <!-- =======================================================
   * Template Name: Mentor - v2.2.1
@@ -36,7 +47,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body onload="firstLoad()">
 
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top">
@@ -56,31 +67,28 @@
         <li><a href="pricing.html">HỌC PHÍ</a></li>
         <li class="drop-down"><a href="">MENU</a>
           <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="drop-down"><a href="#">Deep Drop Down</a>
-              <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Drop Down 2</a></li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
+            <li id="drop1"><a href="top5student.html">Top 5 Học Viên Xuất Sắc </a></li>
+            <div id="drop_admin">
+            </div>
+            <div id="drop_teacher">
+            </div>
+            <div id="drop_student">
+            </div>
+            <div id="drop_warden">
+            </div>
+            <li><a onclick="showProfile()">Xem Thông Tin Cá Nhân</a></li>
+            <li><a onclick="showLiveChat()">Live chat</a></li>
+            <li><a href="#"></a></li>
           </ul>
         </li>
         <li><a href="contact.html">LIÊN HỆ</a></li>
 
       </ul>
     </nav><!-- .nav-menu -->
-
-    <a href="login.html" class="get-started-btn">Login</a>
+    <span id="login_logout"></span>
 
   </div>
 </header><!-- End Header -->
-
   <main id="main">
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" data-aos="fade-in">
@@ -129,22 +137,22 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1232</span>
+            <span data-toggle="counter-up" id="studentTotal"></span>
             <p>Học Viên</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">64</span>
-            <p>Khóa Học</p>
+            <span data-toggle="counter-up" id="courseTotal"></span>
+            <p>Khóa học</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">42</span>
+            <span data-toggle="counter-up" id="eventTotal"></span>
             <p>Sự Kiện</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">15</span>
+            <span data-toggle="counter-up" id="teachertTotal"></span>
             <p>Giảng Viên</p>
           </div>
 
