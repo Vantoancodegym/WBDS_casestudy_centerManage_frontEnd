@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,17 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d6c70a-a231-4034-906d-c606d18a0ad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alcohol/assets/js/livechat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/avgPointInClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/avgPointInClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/createDiary.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/createDiary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/createEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/createEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/customer_register.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/customer_register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alcohol/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/assets/js/livechat.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/assets/js/livechat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/createForm/js/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/createForm/js/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/createForm/js/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/subject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/createForm/js/warden.js" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/createForm/js/warden.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alcohol/livechat.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/livechat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alcohol/trainers.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/trainers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +46,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,6 +73,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -103,7 +108,11 @@
       <workItem from="1616674386185" duration="17549000" />
       <workItem from="1616721918394" duration="20267000" />
       <workItem from="1616827677457" duration="24890000" />
-      <workItem from="1616914119278" duration="18969000" />
+      <workItem from="1616914119278" duration="19788000" />
+      <workItem from="1616979402349" duration="9726000" />
+      <workItem from="1617017671824" duration="5734000" />
+      <workItem from="1617036544939" duration="2282000" />
+      <workItem from="1617070075583" duration="2804000" />
     </task>
     <servers />
   </component>
@@ -131,10 +140,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1616570186077" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1617028207477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617028207477" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1617074443187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617074443187" />
     <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1616947940179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1616947940179" />
+    <state x="434" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1617071676726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="434" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1617071676726" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1616942807773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

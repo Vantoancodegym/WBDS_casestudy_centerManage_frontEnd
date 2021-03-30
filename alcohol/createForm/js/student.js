@@ -1,6 +1,7 @@
 function firtLoad(){
     $.ajax({
         headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -53,6 +54,7 @@ function createStudent(){
 
     $.ajax({
         headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },

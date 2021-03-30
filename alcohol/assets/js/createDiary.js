@@ -35,6 +35,7 @@ function createNewDiary(){
         alert("Bạn chưa chọn học sinh hoặc lớp để viết nhật ký")
     }
     $.ajax({
+        Authorization: 'Bearer ' + localStorage.getItem('token'),
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'

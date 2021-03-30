@@ -14,6 +14,7 @@
 function insertWarden(newUser) {
     $.ajax({
         headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -38,6 +39,7 @@ function insertWarden(newUser) {
 function insertTeacher(newUser) {
     $.ajax({
         headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },

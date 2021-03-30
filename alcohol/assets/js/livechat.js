@@ -1,6 +1,7 @@
 function fillDataLivechatContent() {
     $.ajax({
         headers: {
+            Authorization: 'Bearer ' + localStorage.getItem('token'),
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -28,7 +29,8 @@ function fillDataLivechatContent() {
 }
 
 function firstLoad(){
-    fillDataLivechatContent();
+    setInterval(fillDataLivechatContent,100)
+    // fillDataLivechatContent();
 }
 function sendMessage(){
     let content=$('#messContent').val();

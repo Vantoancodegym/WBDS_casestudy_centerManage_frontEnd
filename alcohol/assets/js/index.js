@@ -2,10 +2,12 @@ function loadToal(){
     $.ajax({
         type: "GET",
         url: "http://localhost:8080/admin/countStudentAllCenter",
+
         headers: {
             Authorization: 'Bearer ' + localStorage.getItem('token'),
-            // 'Accept': 'application/json',
-            // 'Content-Type': 'application/json'
+
+            // // 'Accept': 'application/json',
+            // // 'Content-Type': 'application/json'
         },
         error: function (err) {
             console.log('Error!', err)
@@ -18,9 +20,9 @@ function loadToal(){
         type: "GET",
         url: "http://localhost:8080/admin/countSubject",
         headers: {
-            Authorization: 'Bearer ' + localStorage.getItem('token'),
-            // 'Accept': 'application/json',
-            // 'Content-Type': 'application/json'
+            // Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // // 'Accept': 'application/json',
+            // // 'Content-Type': 'application/json'
         },
         error: function (err) {
             console.log('Error!', err)
@@ -33,7 +35,7 @@ function loadToal(){
         type: "GET",
         url: "http://localhost:8080/admin/countEvent",
         headers: {
-            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // Authorization: 'Bearer ' + localStorage.getItem('token'),
             // 'Accept': 'application/json',
             // 'Content-Type': 'application/json'
         },
@@ -48,7 +50,7 @@ function loadToal(){
         type: "GET",
         url: "http://localhost:8080/admin/countTeacher",
         headers: {
-            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // Authorization: 'Bearer ' + localStorage.getItem('token'),
             // 'Accept': 'application/json',
             // 'Content-Type': 'application/json'
         },
@@ -65,7 +67,7 @@ function loadTop3Teacher(){
         type: "GET",
         url: "http://localhost:8080/admin/getTop3Teacher",
         headers: {
-            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // Authorization: 'Bearer ' + localStorage.getItem('token'),
             // 'Accept': 'application/json',
             // 'Content-Type': 'application/json'
         },
@@ -105,7 +107,7 @@ function loadTop3Subject(){
         type: "GET",
         url: "http://localhost:8080/admin/getTop3Subject",
         headers: {
-            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // Authorization: 'Bearer ' + localStorage.getItem('token'),
             // 'Accept': 'application/json',
             // 'Content-Type': 'application/json'
         },
@@ -136,7 +138,7 @@ function loadAllEvent(){
         type: "GET",
         url: "http://localhost:8080/admin/findAllEvent",
         headers: {
-            Authorization: 'Bearer ' + localStorage.getItem('token'),
+            // Authorization: 'Bearer ' + localStorage.getItem('token'),
             // 'Accept': 'application/json',
             // 'Content-Type': 'application/json'
         },
