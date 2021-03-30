@@ -26,7 +26,6 @@ function createNewRegister(){
         },
         success: function (data) {
             alert("Tạo mới thành công")
-            console.log(data)
         }
     });
 
